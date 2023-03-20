@@ -4,7 +4,7 @@ RUN mkdir -p  /home/retodevops
 # Puerto
 EXPOSE 8081
 # Copia de la app a mi carpeta
-COPY ./target/reto-devops-back-0.0.1-SNAPSHOT.jar /home/retodevops 
+COPY ./JarEstable/reto-devops-back-0.0.1-SNAPSHOT.jar /home/retodevops 
 
 
 ENTRYPOINT ["java","-jar","/home/retodevops/reto-devops-back-0.0.1-SNAPSHOT.jar"]
